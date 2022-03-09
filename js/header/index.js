@@ -1,7 +1,7 @@
 const nav__list = document.querySelector(".nav__list");
 
 const getHeaderResponse = async () => {
-  const response = await fetch("http://localhost:3000/main");
+  const response = await fetch("https://intuit-iaeee-back.herokuapp.com/main");
   const data = await response.json();
 
   let key;
