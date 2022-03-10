@@ -12,11 +12,15 @@
       <div class="container">
         <div class="header__row">
           <div class="logo">
-            <a href="" class="logo__link"><img src="./images/logo.png" alt="LOGO" /> </a>
+            <a href="" class="logo__link"
+              ><img src="./images/logo.png" alt="LOGO" />
+            </a>
           </div>
           <nav class="nav">
             <div class="nav__logo">
-              <a href="" class="logo__link"><img src="./images/logo.png" alt="LOGO" /> </a>
+              <a href="" class="logo__link"
+                ><img src="./images/logo.png" alt="LOGO" />
+              </a>
             </div>
             <ul class="nav__list"></ul>
           </nav>
@@ -39,15 +43,31 @@
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <line x1="1.35355" y1="0.646447" x2="15.3536" y2="14.6464" stroke="#C1C1C1" />
-              <line x1="0.646447" y1="14.6464" x2="14.6464" y2="0.646448" stroke="#C1C1C1" />
+              <line
+                x1="1.35355"
+                y1="0.646447"
+                x2="15.3536"
+                y2="14.6464"
+                stroke="#C1C1C1"
+              />
+              <line
+                x1="0.646447"
+                y1="14.6464"
+                x2="14.6464"
+                y2="0.646448"
+                stroke="#C1C1C1"
+              />
             </svg>
           </h3>
 
           <input type="text" name="name" placeholder="Имя" />
           <input type="text" name="phone" placeholder="Номер телефона*" />
           <input type="text" name="email" placeholder="E-mail*" />
-          <input type="text" name="product" placeholder="Интересующий товар/услуга" />
+          <input
+            type="text"
+            name="product"
+            placeholder="Интересующий товар/услуга"
+          />
           <textarea
             name="description"
             id=""
@@ -57,14 +77,20 @@
             class="contacts__textarea"
           ></textarea>
           <div>
-            <input class="modal-checkbox__input" id="modal-checkbox" type="checkbox" />
+            <input
+              class="modal-checkbox__input"
+              id="modal-checkbox"
+              type="checkbox"
+            />
             <label required for="modal-checkbox" class="modal__checkbox">
               <span class="modal__description"
                 >Отправляя заявку Вы соглашаетесьс политикой конфиденциальности
               </span>
             </label>
           </div>
-          <button type="submit" class="about__link modal__btn">ОТПРАВИТЬ</button>
+          <button type="submit" class="about__link modal__btn">
+            ОТПРАВИТЬ
+          </button>
         </form>
       </div>
 
@@ -107,11 +133,12 @@
           <div class="row contacts-info__row">
             <div class="col-5">
               <div class="contacts-info__item">
-                <h1 class="title contacts-info__title">КОНТАКТНАЯ <span>ИНФОРМАЦИЯ</span></h1>
+                <h1 class="title contacts-info__title">
+                  КОНТАКТНАЯ <span>ИНФОРМАЦИЯ</span>
+                </h1>
                 <p class="contacts-info__description"></p>
-                
-                <button class="contacts-info__btn">Обратная связь</button>
               </div>
+              <button class="contacts-info__btn">Обратная связь</button>
             </div>
             <div class="col-7">
               <div class="contacts-info__item3">
@@ -141,11 +168,21 @@
             <div class="footer__item">
               <h3 class="footer__title">Информация</h3>
               <ul class="footer__list">
-                <li class="footer__li"><a href="#" class="footer__link">Главная</a></li>
-                <li class="footer__li"><a href="#" class="footer__link">Галерея</a></li>
-                <li class="footer__li"><a href="#" class="footer__link">Проекты</a></li>
-                <li class="footer__li"><a href="#" class="footer__link">Сертификаты</a></li>
-                <li class="footer__li"><a href="#" class="footer__link">Контакты</a></li>
+                <li class="footer__li">
+                  <a href="#" class="footer__link">Главная</a>
+                </li>
+                <li class="footer__li">
+                  <a href="#" class="footer__link">Галерея</a>
+                </li>
+                <li class="footer__li">
+                  <a href="#" class="footer__link">Проекты</a>
+                </li>
+                <li class="footer__li">
+                  <a href="#" class="footer__link">Сертификаты</a>
+                </li>
+                <li class="footer__li">
+                  <a href="#" class="footer__link">Контакты</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -167,7 +204,8 @@
                         stroke="white"
                       />
                     </svg>
-                    100000, Республика Казахстан, г. Караганда, ул. Телевизионная 10</a
+                    100000, Республика Казахстан, г. Караганда, ул.
+                    Телевизионная 10</a
                   >
                 </li>
                 <li class="footer__li">
@@ -301,13 +339,12 @@
     <script>
       let map;
       function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
+        map = new google.maps.Map(document.getElementById("map"), {
           center: { lat: -34.397, lng: 150.644 },
           zoom: 8,
         });
       }
     </script>
-
 
     <script src="./js/header/index.js"></script>
     <script src="./js/contact/index.js"></script>
