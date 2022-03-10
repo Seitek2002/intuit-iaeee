@@ -8,7 +8,9 @@ const getHeaderResponse = async () => {
 
   for (key in data.header) {
     nav__list.innerHTML += `
-    <li class="nav__item"><a href="${data.header[key].href}" class="nav__link">${data.header[key].text}</a></li>
+    <li class="nav__item">
+      <a href="${data.header[key].href}" class="nav__link">${data.header[key].text}</a>
+    </li>
     `
   };
 };
