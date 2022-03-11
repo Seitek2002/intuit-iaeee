@@ -69,33 +69,33 @@
   // }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 400px) {
   .hero {
     &__title{
-      font-size: 40px;
+      font-size: 20px;
     }
-    // .row &__item {
-    //   padding-top: 0;
-    // }
-    // .title {
-    //   font-size: 44px;
-    // }
-    // &__counter {
-    //   margin: 35px auto 60px;
-    //   text-align: center;
-    // }
-    // .slick-next.slick-arrow,
-    // .slick-prev.slick-arrow {
-    //   top: 25%;
-    // }
-    // .slick-next.slick-arrow {
-    //   left: auto;
-    //   right: 0;
-    // }
-    // .slick-slide img {
-    //   margin-top: 20px;
-    //   height: 350px;
-    //   width: 100%;
-    // }
+  //   // .row &__item {
+  //   //   padding-top: 0;
+  //   // }
+  //   // .title {
+  //   //   font-size: 44px;
+  //   // }
+  //   // &__counter {
+  //   //   margin: 35px auto 60px;
+  //   //   text-align: center;
+  //   // }
+  //   // .slick-next.slick-arrow,
+  //   // .slick-prev.slick-arrow {
+  //   //   top: 25%;
+  //   // }
+  //   // .slick-next.slick-arrow {
+  //   //   left: auto;
+  //   //   right: 0;
+  //   // }
+  //   // .slick-slide img {
+  //   //   margin-top: 20px;
+  //   //   height: 350px;
+  //   //   width: 100%;
+  //   // }
   }
 }
