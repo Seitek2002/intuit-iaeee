@@ -32,7 +32,7 @@
     </header>
     <main>
       <div class="modal">
-        <form class="modal__form">
+        <form action="./js/contact/index.js" class="modal__form">
           <h3 class="modal__title">
             Задать вопрос
             <svg
@@ -60,10 +60,11 @@
             </svg>
           </h3>
 
-          <input type="text" name="name" placeholder="Имя" />
-          <input type="text" name="phone" placeholder="Номер телефона*" />
-          <input type="text" name="email" placeholder="E-mail*" />
+          <input class="name" type="text" name="name" placeholder="Имя" />
+          <input class="phone" type="text" name="phone" placeholder="Номер телефона*" />
+          <input class="email" type="text" name="email" placeholder="E-mail*" />
           <input
+            class="product"
             type="text"
             name="product"
             placeholder="Интересующий товар/услуга"
@@ -76,7 +77,7 @@
             placeholder="Сообщение*"
             class="contacts__textarea"
           ></textarea>
-          <!-- <div>
+          <div>
             <input
               class="modal-checkbox__input"
               id="modal-checkbox"
@@ -87,7 +88,7 @@
                 >Отправляя заявку Вы соглашаетесьс политикой конфиденциальности
               </span>
             </label>
-          </div> -->
+          </div>
           <button type="submit" class="about__link modal__btn">
             ОТПРАВИТЬ
           </button>
