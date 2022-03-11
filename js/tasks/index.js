@@ -1,7 +1,7 @@
 const tasks = document.querySelector(".tasks");
 
 const getTasksResponse = async () => {
-  const response = await fetch("http://localhost:3000/main");
+  const response = await fetch("https://intuit-iaeee-back.herokuapp.com/main");
   const data = await response.json();
 
   tasks.innerHTML += `
