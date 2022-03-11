@@ -18,7 +18,17 @@ feedBack.addEventListener("click", () => {
     const product = modalForm.product.value;
     const description = modalForm.description.value;
 
+    const info = [
+      modalForm.name.value,
+      modalForm.phone.value,
+      modalForm.email.value,
+      modalForm.product.value,
+      modalForm.description.value,
+    ];
+
     const postMailResponse = async () => {
+      console.log(description);
+      console.log(info);
       const response = await fetch(
         "http://localhost:8080/api/auth/registration",
         {
@@ -28,13 +38,7 @@ feedBack.addEventListener("click", () => {
             phone: modalForm.phone.value,
             email: modalForm.email.value,
             product: modalForm.product.value,
-            description: `${
-              (modalForm.name.value,
-              modalForm.phone.value,
-              modalForm.email.value,
-              modalForm.product.value,
-              modalForm.description.value)
-            }`,
+            description: info,
           }),
           headers: {
             "Content-Type": "application/json",
